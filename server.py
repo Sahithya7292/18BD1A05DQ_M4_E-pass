@@ -3,8 +3,8 @@ import requests
 import requests_cache
 from twilio.rest import Client
 
-account_id='ACef8cbedec9bbc5e5e3d9fd678be7878c'
-auth_token='bd4693bd3d267d9435dbe51641a6c4e7'
+account_id='xxxxx'
+auth_token='xxxxx
 
 client=Client(account_id,auth_token)
 app=Flask(__name__)
