@@ -1,0 +1,69 @@
+<!DOCTYPE hmtl>
+<HTML>
+    <head>
+        <title>E-Pass Registration</title>
+        <link rel="stylesheet" type="text/css" href="static/styles/1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1>E-Pass Registration</h1>
+        <form action="/login" method="POST" novalidate>
+            <div class="leftcontact">
+                <div class="form-grp">
+                    <p>Firstname<span><i class="fa fa-user" ></i></span></p>
+                    <input type="text" name="fname" id="firstName" required />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>Aadhar ID <span><i class="fa fa-info"></i></span></p>
+                    <input type="text" id="id" name="idcard"  required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>E-mail <span><i class="fa fa-envelope-o"></i></span></p>
+                    <input type="text" id="email" name="email" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>From State <span><i class="fa fa-map-marker"></i></span></p>
+                    <input type="text" id="sst" name="source_state" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-gr">
+                    <p>From District <span><i class="fa fa-map-marker"></i></span></p>
+                    <input type="text" id="ssd" name="source_d" required>
+                    <div class="validation"></div>
+                </div>
+            </div>
+            <div class="rightcontact">
+                <div class="form-grp">
+                    <p>Last Name <span><i class="fa fa-user"></i></span></p>
+                    <input type="text" id="lastName" name="lname" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>Phone number <span><i class="fa fa-phone"></i></span></p>
+                    <input type="text" id="phn" name="phoneNumber" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>Date Of Jourmey <span><i class="fa fa-calendar"></i></span></p>
+                    <input type="date" id="dt" name="dat" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>To State <span><i class="fa fa-location-arrow"></i></span></p>
+                    <input type="text" id="dst" name="dest_state" required>
+                    <div class="validation"></div>
+                </div>
+                <div class="form-grp">
+                    <p>To District <span><i class="fa fa-location-arrow"></i></span></p>
+                    <input type="text" id="dsd" name="destination_d" required>
+                    <div class="validation"></div>
+                </div>
+            </div>
+            <input type="submit" class="button-con">
+        </form>
+    </body>
+</HTML>
